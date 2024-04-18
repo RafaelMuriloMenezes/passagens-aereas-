@@ -1,0 +1,8 @@
+def mostrar_menu ():
+    print('===' * 30)
+    print('Escolha uma das opções abaixo:')
+    print('Digite 1 para comprar passagem')
+    print('Digite 2 para listar passagem')
+    print('Digite 3 para sair do programa')
+    print('===' *30)
+    print()
