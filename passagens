@@ -1,0 +1,17 @@
+class PassagensAereasManager (): 
+    passagenscomprada = []
+
+    
+    def adicionar_passagem (self,passageem):
+        self.passagenscomprada.append
+        (passageem)
+
+class Passagem():
+
+    def __init__ (self, origem, destino, preco):
+        self.origem = origem 
+        self.destino = destino
+        self.preco = preco
+
+    def __r__(self):
+        return f'{self.origem} {self.destino} {self.preco}'
